@@ -3,7 +3,7 @@
     "name": "movie-app",
     "slug": "movie-app",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "movieapp",
     "userInterfaceStyle": "automatic",
@@ -21,7 +21,8 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router",
